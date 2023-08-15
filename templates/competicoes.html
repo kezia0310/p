@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <title>Document</title>
+</head>
+<body>
+    {% extends "base.html" %}
+
+ {% block conteudo %}
+<h2>Competições Programadas</h2>
+
+<ul>
+ <li>Segunda</li>
+ <li>Terça</li>
+ <li>Quarta</li>
+ <li>Quinta</li>
+ <li>Sexta</li>
+</ul>
+
+
+
+{% endblock %}
+    
+</body>
+</html>
+
+
