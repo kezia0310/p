@@ -11,7 +11,7 @@ def cadastro():
   return render_template('cadastro.html')
 
 @app.route('/competicoes')
-def cadastro():
+def competicoes():
   return render_template('competicoes.html')
 
 
