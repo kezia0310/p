@@ -7,7 +7,7 @@ def index():
     return render_template('acesso.html')
 
 @app.route('/home')
-def visitante():
+def home():
   return render_template('home.html')
 
 @app.route('/visitante')
