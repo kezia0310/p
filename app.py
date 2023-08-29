@@ -60,6 +60,6 @@ def faq():
 
 @app.route('competicoes')
 def competicoes():
-  return render_template('competicoes.html
+  return render_template('competicoes.html)
 
 app.run(host='0.0.0.0', port=81)
