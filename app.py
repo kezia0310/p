@@ -6,6 +6,10 @@ app = Flask(__name__)
 def index():
     return render_template('acesso.html')
 
+@app.route('/home')
+def visitante():
+  return render_template('home.html')
+
 @app.route('/visitante')
 def visitante():
   return render_template('visitante.html')
@@ -58,8 +62,8 @@ def pontuacao():
 def faq():
   return render_template('faq.html')
 
-@app.route('competicoes')
+@app.route('/competicoes')
 def competicoes():
-  return render_template('competicoes.html)
+  return render_template('competicoes.html')
 
 app.run(host='0.0.0.0', port=81)
