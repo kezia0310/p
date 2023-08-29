@@ -13,14 +13,14 @@
     <h4>Login</h4>
     <form action="/home" method="post">
       <label for="nome">
-        Nome: <input name="nome" type="text">
+        Nome: <input name="nome" type="text" required>
       </label><br>
       <label for="matricula"> 
-       Matrícula: <input name="matricula" type="number"><br>
+       Matrícula: <input name="matricula" type="number" required><br>
       </label>
         
       <label for="senha"> 
-      Senha:  <input name="senha" type="password">
+      Senha:  <input name="senha" type="password" required>
       </label><br>
       <button type="submit">Acessar</button>
       <p>usuários são aqueles ligados à instituição, como representantes de equipes ou membros da comissão.  Caso não possua login, <a href="/cadastro">cadrastre-se.</a></p>
